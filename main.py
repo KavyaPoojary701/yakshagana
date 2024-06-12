@@ -62,7 +62,7 @@ def main():
     st.sidebar.title("Options")
 
     # Load the trained model
-    model_path = st.sidebar.text_input("Model Path", "https://github.com/KavyaPoojary701/yakshagana/blob/master/yakshagana.h5")
+    model_path = st.sidebar.text_input("Model Path", "KavyaPoojary701/yakshagana/blob/master/yakshagana.h5")
     if model_path:
         model = tf.keras.models.load_model(model_path)
 
